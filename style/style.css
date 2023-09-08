@@ -74,3 +74,18 @@ html,body{
 .code{
     color:#ff1301
 }
+
+.btn{
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #222;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    color:aliceblue;
+    background-color: #222;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
