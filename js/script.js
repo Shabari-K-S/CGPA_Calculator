@@ -5,8 +5,7 @@ const dbms = document.getElementsByClassName("dbms").value;
 
 const btn = document.getElementsByClassName("btn").value;
 
-btn.addEventListener("click", clicked());
-function clicked(){
-    console.log("clicked");
-    console.log(toc.value);
-}
+btn.addEventListener("click", function clicked() {
+  console.log("clicked");
+  console.log(toc.value);
+});
