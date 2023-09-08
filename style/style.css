@@ -101,3 +101,26 @@ html,body{
     scroll-behavior: smooth;
     margin: 20px 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .block{
+        width: 90%;    
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:#222;
+    }
+    .container-input input{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .display{
+        width: 100%;
+    }
+}
