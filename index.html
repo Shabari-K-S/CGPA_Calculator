@@ -1,95 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF8">
-    <meta name="viewport" content="width=devicewidth, initialscale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="shortcut icon" href="img/calculator.png" type="image/xicon">
+  <head>
+    <meta charset="UTF8" />
+    <meta name="viewport" content="width=devicewidth, initialscale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="shortcut icon" href="img/calculator.png" type="image/xicon" />
     <title>GPA Calculator</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="title">
-            <h1>GPA Calculator</h1>
+      <div class="title">
+        <h1>GPA Calculator</h1>
+      </div>
+      <div class="block">
+        <div class="container-input">
+          <div class="input">
+            <span class="code">CS3452</span> Theory of Computation
+          </div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="toc"
+            />
+          </div>
         </div>
-        <div class="block">
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">CS3452</span>  Theory of Computation
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="toc">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">CS3491</span>  Artificial Intelligence and Machine Learning 
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="aiml">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">CS3492</span> Database Management Systems
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="dbms">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">CS3401</span>Algorithms
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="alg">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">CS3451</span>Introduction to Operating Systems
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="os">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">GE3451</span>  Environmental Sciences and Sustainability
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="ess">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    NCC Credit Course Level 2#
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="ncc">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">CS3461</span>  Operating Systems Laboratory
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="osl">
-                </div>
-            </div>
-            <div class="container-input">
-                <div class="input">
-                    <span class="code">CS3481</span>  Database Management Systems Laboratory
-                </div>
-                <div class="Userinput">
-                    <input type="text" placeholder="0 to 10" class="dbmsl">
-                </div>
-            </div>
-            <div class="submit">
-                <button onclick="click()" class="btn">Submit</button>
-            </div>
+        <div class="container-input">
+          <div class="input">
+            <span class="code">CS3491</span> Artificial Intelligence and Machine
+            Learning
+          </div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="aiml"
+            />
+          </div>
         </div>
+        <div class="container-input">
+          <div class="input">
+            <span class="code">CS3492</span> Database Management Systems
+          </div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="dbms"
+            />
+          </div>
+        </div>
+        <div class="container-input">
+          <div class="input"><span class="code">CS3401</span>Algorithms</div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="alg"
+            />
+          </div>
+        </div>
+        <div class="container-input">
+          <div class="input">
+            <span class="code">CS3451</span>Introduction to Operating Systems
+          </div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="os"
+            />
+          </div>
+        </div>
+        <div class="container-input">
+          <div class="input">
+            <span class="code">GE3451</span> Environmental Sciences and
+            Sustainability
+          </div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="ess"
+            />
+          </div>
+        </div>
+        <div class="container-input">
+          <div class="input">NCC Credit Course Level 2#</div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="ncc"
+            />
+          </div>
+        </div>
+        <div class="container-input">
+          <div class="input">
+            <span class="code">CS3461</span> Operating Systems Laboratory
+          </div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="osl"
+            />
+          </div>
+        </div>
+        <div class="container-input">
+          <div class="input">
+            <span class="code">CS3481</span> Database Management Systems
+            Laboratory
+          </div>
+          <div class="Userinput">
+            <input
+              type="number"
+              maxlength="10"
+              placeholder="0 to 10"
+              class="dbmsl"
+            />
+          </div>
+        </div>
+        <div class="submit">
+          <button onclick="click()" class="btn">Submit</button>
+        </div>
+      </div>
     </div>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
